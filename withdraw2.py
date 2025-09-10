@@ -7,7 +7,7 @@ import time
 def balance():
     while True:
         try:
-            bal = float(input("Enter your balance or q to exit: \n"))
+            bal = float(input("Enter your balance: \n"))
             if bal < 0:
                 raise ValueError("Balance cant be negative")
         except ValueError as e:
@@ -18,7 +18,7 @@ def balance():
 def withdrawal(balance):
     while True:
         try:
-            amt = float(input("Enter the amount you wish to withdraw or press q to exit: \n"))
+            amt = float(input("Enter the amount you wish to withdraw: \n"))
             if amt < 0:
                 print("Enter a positive amount\n")
                 continue

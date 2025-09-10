@@ -1,0 +1,83 @@
+i have an idea on the basic data types  but not yte used them effectively this refers to lists, dictionaries, sets 
+i can write some functions a little practise is all that i currently need 
+i am confident with python loops the for and the while
+for error handling rn i feel am good at it also practice is needed.
+data structures and algorithms is a topic i havent touched but know is really needed.
+for modules i know how to import them but for that i am sure it needs projects but i havent used any ecxept the maths one only.
+OOP is a topic i know but needs a little refreshing of the memory
+i need projects to practice my python skills am hoping to lock in and be conversely fluent is 3 months 
+you can create a roadmap to cover all these keeping in mind i want to dedicate 3+ hours of my day to python
+
+
+Learning Python
+Month 1: Strengthen Core Concepts & Basics
+Week 1-2: Data Types & Functional Programming
+Deep dive into lists, dictionaries, sets, tuples.
+
+Practice data type operations: indexing, slicing, adding, removing elements.
+
+Write functions that manipulate these collections.
+
+Exercises on comprehensions (list, dict).
+
+Mini-project: Contact list manager using dictionaries and lists.
+
+Week 3-4: Control Flow & Error Handling
+Master if, elif, else with nested conditions.
+
+Practice loops with real tasks (e.g., iterating over collections, searching).
+
+Build multiple nested loops for matrix-like data.
+
+Advanced try-except, custom exceptions.
+
+Mini-project: ATM transaction simulator (deposit, withdraw, balance inquiry) with full error handling.
+
+Month 2: Data Structures, Algorithms & Modules
+Week 5-6: Data Structures & Algorithms Fundamentals
+Study common data structures (stack, queue, linked list concepts).
+
+Learn simple algorithms (sorting: bubble, insertion; searching: linear, binary).
+
+Code basic algorithm implementations.
+
+Practice problems on algorithmic thinking.
+
+Week 7-8: Modules & Standard Libraries
+Deep dive into Python standard modules: math, random, datetime, os, json.
+
+Start using external libraries (e.g., requests for web data).
+
+Projects using APIs, data parsing, or file handling.
+
+Mini-project: Weather report fetcher from a public API.
+
+Month 3: Object-Oriented Programming & Projects
+Week 9-10: OOP Fundamentals
+Refresh classes, objects, attributes, methods.
+
+Practice inheritance, encapsulation, polymorphism.
+
+Create multiple interacting classes.
+
+Exercises: Building a small bank account class system with transactions and history.
+
+Week 11-12: Build and Polish Projects
+Combine everything in full-fledged projects emphasizing practical skills.
+
+Example projects:
+
+Personal Budget Manager (OOP, file handling)
+
+Simple Blogging Platform (data structures, classes)
+
+Tic-Tac-Toe Game (loops, conditionals, OOP)
+
+Focus on writing clean, modular, testable code.
+
+Ongoing Practices:
+Dedicate 1 hour daily to practice exercises/problems on platforms like LeetCode, HackerRank, or Exercism focused on data structures and algorithms.
+
+Read Python documentation and articles to cultivate idiomatic Python usage.
+
+Write daily journal-style notes or blog posts explaining concepts you learn.
