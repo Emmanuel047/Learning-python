@@ -1,4 +1,5 @@
 import json
+
 book_inventory = [
     {
     "Title": "1984",
@@ -17,14 +18,16 @@ book_inventory = [
         "Author": "F. Scott Fitzgerald",
         "Year Published": "1925",
         "Genres": ["Tragedy", "Realism"]
-    },
-    {
-        "Title": "Fahrenheit 451",
-        "Author": "Ray Bradbury",
-        "Year Published": 1953,
-        "Genres": ["Dystopian", "Science Fiction"]
     }
 ]
 
-book = json.loads(book_inventory)
-print(book)
+with open('emma.json', "w") as file:
+    json.dump(book_inventory, file, indent = 4)
+    print("File saved succesfully")
+    
+def file_opener(filename):
+    with open(filename, "r") as file:
+        content = json.load(file)
+        print(content)
+        
+file_opener('emma.json')

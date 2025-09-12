@@ -1,3 +1,2 @@
-Hello world
-Hi its me emma
-Hi i appended this text
+Hello its me emma again.
+I am appending this line.
