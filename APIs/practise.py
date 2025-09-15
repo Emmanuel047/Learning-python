@@ -1,10 +1,11 @@
 #practising my api skills in python
-#my endpoint is https://jsonplaceholder.typicode.com/
+#my endpoint is "https://jsonplaceholder.typicode.com"/
 
 import requests
 url = "https://jsonplaceholder.typicode.com/users"
 response = requests.get(url)
 users = response.json()
-email = users
-names = [users['name'] for users in users]
-print(names[0])
+email = [user['email'] for user in users]
+names = [user['name'] for user in users]
+for user in users:
+    print(f"Name: {user['name']},  Email: {user['email']}")
